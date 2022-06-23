@@ -1,38 +1,26 @@
+
 body {
-  background: plum;
+  background: lightgray;
+}
+
+h1 {
+  font-size: 40px;
 }
 
 h2, p {
   margin: 0;
 }
 
-.title-1 {
-  color: whitesmoke; 
-  font-size: 50px;
-}
- 
-.p-1 {
-  font-size: 24px;
-}
-
-.bg-white {
+.box {
   background: white;
-}
-
-.bg-blueviolet {
-  background: blueviolet;
-}
-
-.section-box {
-  background: white;
-  margin-bottom: 20px;
   padding: 10px;
+  margin-bottom: 15px;
 }
 
-.section-box > h2 {
+.box > h2 {
+  margin-bottom: 5px;
+}
+
+.m1 {
   margin-bottom: 10px;
-}
-
-.section-box > img {
-  margin-top: 10px;
 }
